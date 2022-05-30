@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054023708339",
+    "project_id": "project-beber-agua",
+    "storage_bucket": "project-beber-agua.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054023708339:android:a586a127c974c729d0cac6",
+        "android_client_info": {
+          "package_name": "com.example.beberagua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054023708339-oinlb5b19bel0h5uql807ddvj1uul1ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUI0eNm6jWZnTNt-CYoyFEGpFTVhGjOGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054023708339-oinlb5b19bel0h5uql807ddvj1uul1ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

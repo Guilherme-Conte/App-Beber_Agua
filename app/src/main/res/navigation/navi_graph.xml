@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_graph"
+    app:startDestination="@id/calcular">
+    <fragment
+        android:id="@+id/calcular"
+        android:name="com.example.beberagua.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_calcular_to_alarme"
+            app:destination="@id/alarme" />
+        <action
+            android:id="@+id/action_calcular_to_resumo"
+            app:destination="@id/resumo" />
+    </fragment>
+    <fragment
+        android:id="@+id/alarme"
+        android:name="com.example.beberagua.AlertaFragment"
+        android:label="fragment_alerta"
+        tools:layout="@layout/fragment_alerta" />
+    <fragment
+        android:id="@+id/resumo"
+        android:name="com.example.beberagua.ResumoFragment"
+        android:label="fragment_resumo"
+        tools:layout="@layout/fragment_resumo" />
+</navigation>
